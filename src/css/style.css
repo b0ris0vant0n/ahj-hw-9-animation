@@ -1,0 +1,24 @@
+.collapsible {
+  border: 1px solid #ccc;
+  width: 500px;
+  margin: 10px;
+  padding: 5px;
+  font-family: sans-serif;
+}
+
+.collapsible-btn {
+  background-color: #343ef3;
+  font-size: 18px;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.collapsible-content {
+  max-height: 0;
+  font-size: 16px;
+  overflow: hidden;
+  padding: 0 10px;
+  transition: max-height 0.3s ease-out;
+}
